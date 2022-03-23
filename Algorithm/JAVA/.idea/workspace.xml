@@ -30,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring/hello-spring/build.gradle" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunManager" selected="Application.March23_2">
@@ -89,6 +90,7 @@
       <workItem from="1647832617417" duration="12411000" />
       <workItem from="1647961894781" duration="3414000" />
       <workItem from="1648028606321" duration="2098000" />
+      <workItem from="1648049546163" duration="1014000" />
     </task>
     <servers />
   </component>

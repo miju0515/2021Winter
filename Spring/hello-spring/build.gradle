@@ -1,23 +1,25 @@
 plugins {
-	id 'org.springframework.boot' version '2.6.2' //¼±ÅÃÇÑ ¹öÀü
+	id 'org.springframework.boot' version '2.6.4'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-	id 'java' //¾ğ¾î
+	id 'java'
 }
 
 group = 'hello'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'//ÀÚ¹Ù11¹öÀü
+sourceCompatibility = '11'
 
 repositories {
-	mavenCentral()//¶óÀÌºê·¯¸® ¹Ş¾Æ¿Ã °÷
+	mavenCentral() //ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ ë‹¤ìš´ë°›ëŠ” ê³³ ì„¤ì •
 }
 
 dependencies {
+	//ì²˜ìŒ ìƒì„±í•  ë•Œ ì„ íƒí•œ ë¼ì´ë¸ŒëŸ¬ë¦¬
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//ê¸°ë³¸ì ìœ¼ë¡œ í…ŒìŠ¤íŠ¸ ë¼ì´ë¸ŒëŸ¬ë¦¬ê°€ ë“¤ì–´ê°
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-test {
+tasks.named('test') {
 	useJUnitPlatform()
 }
